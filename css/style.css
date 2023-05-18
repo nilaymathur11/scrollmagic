@@ -51,6 +51,7 @@ main{
 }
 
 .scroll_circle{
+    width: 420px;
     height: 420px;
     border-radius: 50%;
     background-color: rgb(104, 51, 155);
@@ -58,18 +59,18 @@ main{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 70%;
     z-index: 1;
 }
 
 svg{
-    height: 115%;
-    width: 102%;
+    height: 90%;
+    width: 90%;
     transform: rotate(-135deg);
     position: absolute;
-    top: -29px;
-    left: 0px;
+    top: 5%;
+    left: 5%;
 }
 
 circle{
@@ -143,13 +144,14 @@ circle{
     background-color: rgb(104, 51, 155);
     box-sizing: border-box;
     position: absolute;
-    top: 29%;
+    top: 11%;
     z-index: 2;
     text-align: right;
     overflow: hidden;
     min-height: 250px;
-    max-height: 250px;
+    max-height: 270px;
     transition: 0.5s;
+    border-radius: 10%;
 }
 
 .downloads_1{

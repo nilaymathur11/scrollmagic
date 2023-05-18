@@ -2,12 +2,6 @@
 
 $(window).scrollTop(0);
 $('circle').attr('stroke-dashoffset', '315');
-var browser_width = $(window).width();
-
-while ((browser_width < 1610) && (browser_width > 1000)) {
-    var browser_width = $(window).width();
-    alert('To Get Best Experience of Our Website Please Go FullScreen Or Open In Mobile Window');
-}
 
 $(window).scroll(
     function () {
@@ -35,7 +29,7 @@ $(window).scroll(
             }
             $('.bg_change1').css('background-color', 'rgb(104, 51, 155)');
             $('.bg_change2').css('background-color', 'rgb(214, 213, 213)');
-            $('.downloads_slide_1').css('transform', 'translateY(0px)');
+            $('.downloads_slide_1').css('transform', 'translateY(0%)');
             $('.awards_img').attr('src', 'images/world-communication-awards-for-best-digital-experience.png');
             $('.awards_img').css('opacity', '1');
             $('.abc_cont').css('transform', 'translateY(0px)');
@@ -69,7 +63,7 @@ $(window).scroll(
             
             $('.bg_change1').css('background-color', 'rgb(62, 73, 162)');
             $('.bg_change2').css('background-color', 'rgb(21, 38, 166)');
-            $('.downloads_slide_1').css('transform', 'translateY(-250px)');
+            $('.downloads_slide_1').css('transform', 'translateY(-14%)');
             $('.awards_img').css('opacity', '0');
             $('.abc_cont').css('transform', 'translateY(-100px)');
             $('.best_slide_1').css('transform', 'translateY(-60px)');
@@ -105,7 +99,7 @@ $(window).scroll(
             
             $('.bg_change1').css('background-color', 'rgb(13, 19, 44)');
             $('.bg_change2').css('background-color', 'rgb(29, 29, 88)');
-            $('.downloads_slide_1').css('transform', 'translateY(-500px)');
+            $('.downloads_slide_1').css('transform', 'translateY(-28%)');
             $('.abc_cont').css('transform', 'translateY(-200px)');
             $('.best_slide_1').css('transform', 'translateY(-120px)');
             $('.content_bottom_1_1').css('transform', 'translateY(-65px)');
@@ -168,7 +162,7 @@ $(window).scroll(
             
             $('.bg_change1').css('background-color', 'rgb(26, 36, 74)');
             $('.bg_change2').css('background-color', 'rgb(13, 19, 44)');
-            $('.downloads_slide_1').css('transform', 'translateY(-750px)');
+            $('.downloads_slide_1').css('transform', 'translateY(-42%)');
             $('.abc_cont').css('transform', 'translateY(-290px)');
             $('.best_slide_1').css('transform', 'translateY(-120px)');
             $('.content_bottom_1_1').css('transform', 'translateY(-100px)');
@@ -261,7 +255,7 @@ $(window).scroll(
             
             $('.bg_change1').css('background-color', 'rgb(27, 80, 144)');
             $('.bg_change2').css('background-color', 'rgb(29, 190, 218)');
-            $('.downloads_slide_1').css('transform', 'translateY(-1030px)');
+            $('.downloads_slide_1').css('transform', 'translateY(-56%)');
             $('.abc_cont').css('transform', 'translateY(-360px)');
             $('.best_slide_1').css('transform', 'translateY(-180px)');
             $('.content_bottom_1_1').css('transform', 'translateY(-130px)');
@@ -358,7 +352,7 @@ $(window).scroll(
             
             $('.bg_change1').css('background-color', 'rgb(21, 38, 166)');
             $('.bg_change2').css('background-color', 'rgb(214, 213, 213)');
-            $('.downloads_slide_1').css('transform', 'translateY(-1280px)');
+            $('.downloads_slide_1').css('transform', 'translateY(-72%)');
             $('.abc_cont').css('transform', 'translateY(-440px)');
             $('.best_slide_1').css('transform', 'translateY(-240px)');
             $('.awards_img').css('opacity', '0');
@@ -436,7 +430,7 @@ $(window).scroll(
             
             $('.bg_change1').css('background-color', 'rgb(44, 109, 50)');
             $('.bg_change2').css('background-color', 'rgb(88, 190, 98)');
-            $('.downloads_slide_1').css('transform', 'translateY(-1540px)');
+            $('.downloads_slide_1').css('transform', 'translateY(-86%)');
             $('.abc_cont').css('transform', 'translateY(-540px)');
             $('.awards_img').attr('src', 'images/mobile-app-of-the-year-by-entrepreneur.png');
             $('.awards_img').css('opacity', '1');
