@@ -144,18 +144,18 @@ circle{
     background-color: rgb(104, 51, 155);
     box-sizing: border-box;
     position: absolute;
-    top: 11%;
+    top: 15%;
     z-index: 2;
     text-align: right;
     overflow: hidden;
-    min-height: 250px;
-    max-height: 270px;
+    min-height: 240px;
+    max-height: 240px;
     transition: 0.5s;
     border-radius: 10%;
 }
 
 .downloads_1{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
 }
 
