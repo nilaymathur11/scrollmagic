@@ -400,12 +400,19 @@ circle{
 }
 
 .mobile_awards{
+    height: 100px;
+    width: 320px;
     position: absolute;
     top: -30px;
-    left: 50px;
+    left: 5%;
     border: 1px solid rgb(104, 51, 155);
     border-radius: 10px;
     background-color: white;
+}
+
+.mobile_awards img{
+    height: 100%;
+    width: 100%;
 }
 
 .mobile_abc{
