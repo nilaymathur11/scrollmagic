@@ -1,17 +1,11 @@
 @media only  screen and (max-width:767px){
-    html{
-        height: 100vh;
-        height: -webkit-fill-available;
-    }
-    
     body{
         height: 100vh;
-        height: -webkit-fill-available;
+        height: -webkit-98vh;
     }
 
     main{
         height: 100%;
-        height: -webkit-fill-available;
     }
     
 }
