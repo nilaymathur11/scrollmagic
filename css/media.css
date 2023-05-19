@@ -1,7 +1,6 @@
 @media only  screen and (max-width:767px){
     body{
         height: 100vh;
-        -webkit-height: 90vh;
     }
 
     main{
