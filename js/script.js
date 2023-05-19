@@ -60,7 +60,7 @@ $(window).scroll(
                     )
                 }
             }
-            
+
             $('.bg_change1').css('background-color', 'rgb(62, 73, 162)');
             $('.bg_change2').css('background-color', 'rgb(21, 38, 166)');
             $('.downloads_slide_1').css('transform', 'translateY(-14%)');
@@ -96,7 +96,7 @@ $(window).scroll(
                     )
                 }
             }
-            
+
             $('.bg_change1').css('background-color', 'rgb(13, 19, 44)');
             $('.bg_change2').css('background-color', 'rgb(29, 29, 88)');
             $('.downloads_slide_1').css('transform', 'translateY(-28%)');
@@ -159,7 +159,7 @@ $(window).scroll(
                     )
                 }
             }
-            
+
             $('.bg_change1').css('background-color', 'rgb(26, 36, 74)');
             $('.bg_change2').css('background-color', 'rgb(13, 19, 44)');
             $('.downloads_slide_1').css('transform', 'translateY(-42%)');
@@ -252,7 +252,7 @@ $(window).scroll(
                     )
                 }
             }
-            
+
             $('.bg_change1').css('background-color', 'rgb(27, 80, 144)');
             $('.bg_change2').css('background-color', 'rgb(29, 190, 218)');
             $('.downloads_slide_1').css('transform', 'translateY(-56%)');
@@ -349,7 +349,7 @@ $(window).scroll(
                     )
                 }
             }
-            
+
             $('.bg_change1').css('background-color', 'rgb(21, 38, 166)');
             $('.bg_change2').css('background-color', 'rgb(214, 213, 213)');
             $('.downloads_slide_1').css('transform', 'translateY(-72%)');
@@ -406,7 +406,7 @@ $(window).scroll(
                 }
             );
         }
-        else if(scroll_value > 320){
+        else if (scroll_value > 320) {
             //Page 7 JS
             $('circle').attr('stroke-dashoffset', '94');
             for (var j = 0; j <= 6; j++) {
@@ -427,7 +427,7 @@ $(window).scroll(
                     )
                 }
             }
-            
+
             $('.bg_change1').css('background-color', 'rgb(44, 109, 50)');
             $('.bg_change2').css('background-color', 'rgb(88, 190, 98)');
             $('.downloads_slide_1').css('transform', 'translateY(-86%)');
@@ -455,7 +455,7 @@ $(window).scroll(
                 }
             );
         }
-        else{}
+        else { }
 
     }
 );
@@ -499,4 +499,13 @@ $('.rounds').eq(6).click(
 //PC Screen JS END
 
 //Mobile Screen JS START
+
+var vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+window.addEventListener('resize', () => {
+    var vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+})
+
+//Mobile Screen JS END
 
