@@ -5,6 +5,11 @@
 
 html{
     scroll-behavior: smooth;
+    height: -webkit-fill-available;
+}
+
+body{
+    min-height: -webkit-fill-available;
 }
 
 ul {
@@ -364,12 +369,14 @@ circle{
 .mobile_cont_top{
     filter: blur(0.8px);
     height: 50vh;
+    min-height: -webkit-fill-available;
     position: relative;
 }
 
 .mobile_cont_bottom{
     position: relative;
     height: 50vh;
+    min-height: -webkit-fill-available;
     padding: 0px 20px;
 }
 
